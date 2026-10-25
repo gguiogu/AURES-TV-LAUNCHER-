@@ -1,0 +1,16 @@
+#!/bin/sh
+# ====================================================================
+# AURÈS TV — Gradle / Standalone Build Dispatcher for Linux/macOS
+# ====================================================================
+DIRNAME="$(cd "$(dirname "$0")" && pwd)"
+
+if [ -f "$DIRNAME/gradle/wrapper/gradle-wrapper.jar" ]; then
+    exec java -jar "$DIRNAME/gradle/wrapper/gradle-wrapper.jar" "$@"
+fi
+
+if command -v gradle >/dev/null 2>&1; then
+    exec gradle "$@"
+fi
+
+echo "[AURÈS TV] Running standalone build engine..."
+exec "$DIRNAME/scripts/build.sh"
