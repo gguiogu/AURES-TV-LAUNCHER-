@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="aures_midnight">#040710</color>
+    <color name="aures_gold">#D4AF37</color>
+    <color name="aures_emerald">#10B981</color>
+    <color name="aures_card_bg">#180A0E1A</color>
+    <color name="aures_card_border">#2EFFFFFF</color>
+    <color name="aures_text_primary">#F8FAFC</color>
+    <color name="aures_text_secondary">#94A3B8</color>
+</resources>

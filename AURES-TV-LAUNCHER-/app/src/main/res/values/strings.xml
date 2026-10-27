@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AURÈS TV</string>
+    <string name="launcher_label">1962</string>
+    <string name="salat_mode_label">Salat Mode</string>
+    <string name="channel_entv">التلفزيون الجزائري</string>
+    <string name="channel_canal_algerie">كنال ألجيري</string>
+    <string name="channel_echorouk">الشروق TV</string>
+    <string name="channel_ennahar">النهار TV</string>
+</resources>
